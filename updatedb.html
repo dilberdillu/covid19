@@ -1,0 +1,638 @@
+<!--
+=========================================================
+ Paper Dashboard 2 - v2.0.0
+=========================================================
+
+ Product Page: https://www.creative-tim.com/product/paper-dashboard-2
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+ Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE)
+
+ Coded by Creative Tim
+
+=========================================================
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Gayathri&display=swap');
+    </style>
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    കോവിഡ് 19 തത്സമയവിവരം 
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
+  
+
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    
+    <div class="sidebar" data-color="white" data-active-color="danger">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+      <div class="logo">
+        <a  class="simple-text logo-mini">
+          <div class="logo-image-small"> <!--
+            <img src="./assets/img/logo-small.png"> -->
+          </div>
+        </a>
+        <a class="simple-text logo-normal">
+          COVID19 Live
+          <!-- <div class="logo-image-big">
+            <img src="./assets/img/logo-big.png">
+          </div> -->
+        </a>
+      </div>
+      <!---->
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="active ">
+            <a href="./index.html">
+              <i class="nc-icon nc-bank"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li>
+            <a href="./resources.html">
+              <i class="nc-icon nc-diamond"></i>
+              <p>Resources</p>
+            </a>
+          </li>
+          <li>
+            <a href="./about.html">
+              <i class="nc-icon nc-pin-3"></i>
+              <p>About</p>
+            </a>
+          </li>
+          <!--
+          <li>
+            <a href="./notifications.html">
+              <i class="nc-icon nc-bell-55"></i>
+              <p>Notifications</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="./user.html">
+              <i class="nc-icon nc-single-02"></i>
+              <p>User Profile</p>
+            </a>
+          </li> 
+          <li>
+            <a href="./tables.html">
+              <i class="nc-icon nc-tile-56"></i>
+              <p>Table List</p>
+            </a>
+          </li>
+          <li>
+            <a href="./typography.html">
+              <i class="nc-icon nc-caps-small"></i>
+              <p>Typography</p>
+            </a>
+          </li>
+          <li class="active-pro">
+            <a href="./upgrade.html">
+              <i class="nc-icon nc-spaceship"></i>
+              <p>Upgrade to PRO</p>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div> 
+            <a class="navbar-brand card-text malayalam" href="">കോവിഡ്19 തത്സമയവിവരം</a>
+          </div>
+          <!--
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button> -->
+
+          <!--
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Search..."> 
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <i class="nc-icon nc-zoom-split"></i>
+                  </div>
+                </div>
+              </div>
+            </form> -->
+            <!--
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link btn-magnify" href="#pablo">
+                  <i class="nc-icon nc-layout-11"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Stats</span>
+                  </p>
+                </a>
+              </li> 
+
+              <li class="nav-item btn-rotate dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="nc-icon nc-bell-55"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-rotate" href="#pablo">
+                  <i class="nc-icon nc-settings-gear-65"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                  </p>
+                </a>
+              </li>
+            </ul> 
+          </div> -->
+        </div>
+      </nav>
+    
+
+      <!-- End Navbar -->
+      <!-- <div class="panel-header panel-header-lg">
+
+  <canvas id="bigDashboardChart"></canvas>
+
+
+</div> -->
+      <div class="content">
+        
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <div class="card card-upgrade">
+                <div class="card-header text-center">
+                  <h4 class="card-title">കോവിഡ് 19 കേരള അപ്ഡേറ്റ്</h3>
+                  <!--  <p class="card-category"></p> -->
+                </div>
+                <p id="moment" class="text-center"></p>
+                <!-- kerala update below-->
+
+                <div class="card-body">
+                  <div class="table-responsive table-upgrade">
+                    <table class="table">
+                      <thead>
+                        <th></th>
+                        <th class="text-center">കേരളത്തിൽ</th>
+                        <th class="text-center">അപ്ഡേറ്റ്</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>രോഗബാധിതർ</td>
+                          <td class="text-center" id='keralaInfected'></td>
+                          <td class="text-center"><input type="text" id="dbKeralaInfected" ></td>
+                        </tr>
+                        <tr>
+                          <td>മരണം</td>
+                          <td class="text-center" id="keralaDeaths"></td>
+                          <td class="text-center"><input type="text" id="dbKeralaDeaths" ></td>
+                        </tr>
+                        <tr>
+                          <td>ഭേദമായവർ</td>
+                          <td class="text-center" id="keralaRecovered"></td>
+                          <td class="text-center"><input type="text" id="dbKeralaRecovered" ></td>
+                        </tr>
+                        <tr>
+                          <td>ഇന്ന് ബാധിച്ചവർ</td>
+                          <td class="text-center" id="keralaInfectedToday"></td>
+                          <td class="text-center"><input type="text" id="dbKeralaInfectedToday" ></td>
+                        </tr>
+                        <tr>
+                          <td class="text-center"></td>
+                          <td class="text-center">
+                            <a  class="btn btn-round btn-primary" id="dbUpdateButton" onclick="dbUpdateKerala()">അപ്ഡേറ്റ്</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+
+                <!-- world update below-->
+
+                <div class="card-body">
+                    <div class="table-responsive table-upgrade">
+                      <table class="table">
+                        <thead>
+                          <th></th>
+                          <th class="text-center">ലോകത്ത്</th>
+                          <th class="text-center">അപ്ഡേറ്റ്</th>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>രോഗബാധിതർ</td>
+                            <td class="text-center" id='worldInfected'></td>
+                            <td class="text-center"><input type="text" id="dbWorldInfected" ></td>
+                          </tr>
+                          <tr>
+                            <td>മരണം</td>
+                            <td class="text-center" id="worldDeaths"></td>
+                            <td class="text-center"><input type="text" id="dbWorldDeaths" ></td>
+                          </tr>
+                          <tr>
+                            <td class="text-center"></td>
+                            <td class="text-center">
+                              <a  class="btn btn-round btn-primary" id="dbUpdateButton" onclick="dbUpdateWorld()">അപ്ഡേറ്റ്</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+
+                  <!-- india update below-->
+
+                  <div class="card-body">
+                    <div class="table-responsive table-upgrade">
+                      <table class="table">
+                        <thead>
+                          <th></th>
+                          <th class="text-center">ഇന്ത്യയിൽ</th>
+                          <th class="text-center">അപ്ഡേറ്റ്</th>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>രോഗബാധിതർ</td>
+                            <td class="text-center" id='indiaInfected'></td>
+                            <td class="text-center"><input type="text" id="dbIndiaInfected" ></td>
+                          </tr>
+                          <tr>
+                            <td>മരണം</td>
+                            <td class="text-center" id="indiaDeaths"></td>
+                            <td class="text-center"><input type="text" id="dbIndiaDeaths" ></td>
+                          </tr>
+                          <tr>
+                            <td class="text-center"></td>
+                            <td class="text-center">
+                              <a  class="btn btn-round btn-primary" id="dbUpdateButton" onclick="dbUpdateIndia()">അപ്ഡേറ്റ്</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <!-- District update below-->
+
+
+                  <div class="card-header">
+                    <h4 class="card-title text-center">ജില്ല വിവരക്കണക്ക്</h4>  
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive table-upgrade">
+                      <table class="table">
+                        <thead>
+                          <th></th>
+                          <th class="text-center">രോഗബാധിതർ</th>
+                          <th class="text-center">അപ്ഡേറ്റ്</th>
+                          <th class="text-center">ഭേദമായവർ</th>
+                          <th class="text-center">അപ്ഡേറ്റ്</th>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>കാസർഗോഡ്</td>
+                            <td class="text-center" id='kasargodInfected'></td>
+                            <td class="text-center"><input type="text" id="dbKasargodInfected" ></td>
+                            <td class="text-center" id='kasargodRecovered'></td>
+                            <td class="text-center"><input type="text" id="dbKasargodRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>കണ്ണൂർ</td>
+                            <td class="text-center" id="kannurInfected"></td>
+                            <td class="text-center"><input type="text" id="dbKannurInfected" ></td>
+                            <td class="text-center" id="kannurRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbKannurRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>വയനാട്</td>
+                            <td class="text-center" id='wayanadInfected'></td>
+                            <td class="text-center"><input type="text" id="dbWayanadInfected" ></td>
+                            <td class="text-center" id='wayanadRecovered'></td>
+                            <td class="text-center"><input type="text" id="dbWayanadRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>കോഴിക്കോട്</td>
+                            <td class="text-center" id="kozhikodeInfected"></td>
+                            <td class="text-center"><input type="text" id="dbKozhikodeInfected" ></td>
+                            <td class="text-center" id="kozhikodeRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbKozhikodeRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>മലപ്പുറം</td>
+                            <td class="text-center" id="malappuramInfected"></td>
+                            <td class="text-center"><input type="text" id="dbMalappuramInfected" ></td>
+                            <td class="text-center" id="malappuramRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbMalappuramRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>പാലക്കാട്‌</td>
+                            <td class="text-center" id="palakkadInfected"></td>
+                            <td class="text-center"><input type="text" id="dbPalakkadInfected" ></td>
+                            <td class="text-center" id="palakkadRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbPalakkadRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>തൃശൂർ</td>
+                            <td class="text-center" id="thrissurInfected"></td>
+                            <td class="text-center"><input type="text" id="dbThrissurInfected" ></td>
+                            <td class="text-center" id="thrissurRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbThrissurRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>എറണാകുളം</td>
+                            <td class="text-center" id="eranakulamInfected"></td>
+                            <td class="text-center"><input type="text" id="dbEranakulamInfected" ></td>
+                            <td class="text-center" id="eranakulamRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbEranakulamRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>കോട്ടയം</td>
+                            <td class="text-center" id="kottayamInfected"></td>
+                            <td class="text-center"><input type="text" id="dbKottayamInfected" ></td>
+                            <td class="text-center" id="kottayamRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbKottayamRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>ഇടുക്കി</td>
+                            <td class="text-center" id="idukkiInfected"></td>
+                            <td class="text-center"><input type="text" id="dbIdukkiInfected" ></td>
+                            <td class="text-center" id="idukkiRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbIdukkiRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>ആലപ്പുഴ</td>
+                            <td class="text-center" id="alappuzhaInfected"></td>
+                            <td class="text-center"><input type="text" id="dbAlappuzhaInfected" ></td>
+                            <td class="text-center" id="alappuzhaRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbAlappuzhaRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>പത്തനംതിട്ട</td>
+                            <td class="text-center" id="pathanamthittaInfected"></td>
+                            <td class="text-center"><input type="text" id="dbPathanamthittaInfected" ></td>
+                            <td class="text-center" id="pathanamthittaRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbPathanamthittaRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>കൊല്ലം</td>
+                            <td class="text-center" id="kollamInfected"></td>
+                            <td class="text-center"><input type="text" id="dbKollamInfected" ></td>
+                            <td class="text-center" id="kollamRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbKollamRecovered" ></td>
+                          </tr>
+                          <tr>
+                            <td>തിരുവനന്തപുരം</td>
+                            <td class="text-center" id="thiruvananthapuramInfected"></td>
+                            <td class="text-center"><input type="text" id="dbThiruvananthapuramInfected" ></td>
+                            <td class="text-center" id="thiruvananthapuramRecovered"></td>
+                            <td class="text-center"><input type="text" id="dbThiruvananthapuramRecovered" ></td>
+                          </tr>
+
+                          <tr>
+                            <td class="text-center"></td>
+                            <td class="text-center">
+                              <a  class="btn btn-round btn-primary" id="dbUpdateButton" onclick="dbUpdateDistrict()">അപ്ഡേറ്റ്</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+
+
+                  <div class="card-header">
+                    <h4 class="card-title text-center">കേരളത്തിൽ ഇന്ന് സ്ഥിതീകരിച്ചത്</h4>  
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive table-upgrade">
+                      <table class="table">
+                        <thead>
+                          <th></th>
+                          <th class="text-center">ഇന്ന്</th>
+                          <th class="text-center">അപ്ഡേറ്റ്</th>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>കേരളത്തിൽ</td>
+                            <td class="text-center" id='keralaToday'></td>
+                            <td class="text-center"><input type="text" id="dbKeralaToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>കാസർഗോഡ്</td>
+                            <td class="text-center" id='kasargodToday'></td>
+                            <td class="text-center"><input type="text" id="dbKasargodToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>കണ്ണൂർ</td>
+                            <td class="text-center" id="kannurToday"></td>
+                            <td class="text-center"><input type="text" id="dbKannurToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>വയനാട്</td>
+                            <td class="text-center" id="wayanadToday"></td>
+                            <td class="text-center"><input type="text" id="dbWayanadToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>കോഴിക്കോട്</td>
+                            <td class="text-center" id="kozhikodeToday"></td>
+                            <td class="text-center"><input type="text" id="dbKozhikodeToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>മലപ്പുറം</td>
+                            <td class="text-center" id="malappuramToday"></td>
+                            <td class="text-center"><input type="text" id="dbMalappuramToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>പാലക്കാട്‌</td>
+                            <td class="text-center" id="palakkadToday"></td>
+                            <td class="text-center"><input type="text" id="dbPalakkadToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>തൃശൂർ</td>
+                            <td class="text-center" id="thrissurToday"></td>
+                            <td class="text-center"><input type="text" id="dbThrissurToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>എറണാകുളം</td>
+                            <td class="text-center" id="eranakulamToday"></td>
+                            <td class="text-center"><input type="text" id="dbEranakulamToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>കോട്ടയം</td>
+                            <td class="text-center" id="kottayamToday"></td>
+                            <td class="text-center"><input type="text" id="dbKottayamToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>ഇടുക്കി</td>
+                            <td class="text-center" id="idukkiToday"></td>
+                            <td class="text-center"><input type="text" id="dbIdukkiToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>ആലപ്പുഴ</td>
+                            <td class="text-center" id="alappuzhaToday"></td>
+                            <td class="text-center"><input type="text" id="dbAlappuzhaToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>പത്തനംതിട്ട</td>
+                            <td class="text-center" id="pathanamthittaToday"></td>
+                            <td class="text-center"><input type="text" id="dbPathanamthittaToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>കൊല്ലം</td>
+                            <td class="text-center" id="kollamToday"></td>
+                            <td class="text-center"><input type="text" id="dbKollamToday" ></td>
+                          </tr>
+                          <tr>
+                            <td>തിരുവനന്തപുരം</td>
+                            <td class="text-center" id="thiruvananthapuramToday"></td>
+                            <td class="text-center"><input type="text" id="dbThiruvananthapuramToday" ></td>
+                          </tr>
+                          
+                          <tr>  
+                            <td class="text-center">
+                              <a  class="btn btn-round btn-primary" id="toggleButton" >switch</a>
+                              <p id="toggleText"></p>
+                            </td>
+                            <td class="text-center">
+                              <a  class="btn btn-round btn-primary" id="dbUpdateButton" onclick="dbUpdateToday()">അപ്ഡേറ്റ്</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+      
+      <footer class="footer footer-black  footer-white ">
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="footer-nav">
+              <ul>
+                <li>
+                  <a  target="_blank"></a>
+                </li>
+                <li>
+                  <a  target="_blank"></a>
+                </li>
+                <li>
+                  <a target="_blank"></a>
+                </li>
+              </ul>
+            </nav>
+            <!--
+            <div class="credits ml-auto">
+              <span class="copyright">
+                ©
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>, made in Kerala
+              </span>
+            </div> -->
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js"></script>
+  <script src="./assets/js/core/popper.min.js"></script>
+  <script src="./assets/js/core/bootstrap.min.js"></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+  <script src="./assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+
+  <script src="./assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/paper-dashboard.min.js?v=2.0.0" type="text/javascript"></script>
+  <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+  
+  
+  <!-- <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
+      demo.initChartsPages();
+    });
+  </script> -->
+
+<!--
+Firebase scripts   
+-->
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
+
+
+
+  <script src= "./assets/js/updatedb.js"></script>
+
+  
+</body>
+
+</html>
